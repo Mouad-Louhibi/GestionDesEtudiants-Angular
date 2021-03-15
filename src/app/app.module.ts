@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GestionComponent } from './components/gestion/gestion.component';
 import { ListEtudiantComponent } from './components/list-etudiant/list-etudiant.component';
+import { AddEtudiantComponent } from './components/add-etudiant/add-etudiant.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ListEtudiantComponent } from './components/list-etudiant/list-etudiant.
     HeaderComponent,
     FooterComponent,
     GestionComponent,
-    ListEtudiantComponent
+    ListEtudiantComponent,
+    AddEtudiantComponent
   ],
   imports: [
     BrowserModule,

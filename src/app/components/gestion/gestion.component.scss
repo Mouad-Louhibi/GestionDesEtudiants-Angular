@@ -1,14 +1,24 @@
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 app-add-etudiant{
     width: 30%;
     min-width: 300px;
+    text-align: center;
 }
 
 app-list-etudiant{
     width: 70%;
     min-width: 700px;
+    text-align: center;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    border-bottom: 0.5px solid gray;
 }
