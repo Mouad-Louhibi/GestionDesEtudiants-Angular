@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+app-add-etudiant{
+    width: 30%;
+    min-width: 300px;
+}
+
+app-list-etudiant{
+    width: 70%;
+    min-width: 700px;
+}

@@ -1,0 +1,15 @@
+li{
+    display: inline;
+    margin: 10px 5px;
+}
+
+a{
+    color: white;
+    transition-duration: 1s;
+    padding: 10px 20px;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+}
